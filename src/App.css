@@ -1,0 +1,29 @@
+#btn{
+    background-color: rgb(121, 121, 26);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+ .m {
+position: relative;
+  }
+.tf::after,.tp::after{
+    /* text-align: right; */
+  position: absolute;
+  right: 15px;
+  top:12px;
+  font-size: 17px;
+  opacity: 0.5;
+  
+  }
+  .tf::after{
+    content: 'kg';
+  }
+  .tp::after{
+    content: 'cm';
+  }
+
+
+  
